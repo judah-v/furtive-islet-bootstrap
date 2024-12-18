@@ -1,0 +1,64 @@
+p {
+    font: bold 1.34em "Raleway", sans-serif;
+    color: white;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+p.graphic1 {
+    top: 29%;
+    left: 35%;
+    color: maroon;
+}
+p.graphic2 {
+    top: 3%;
+    left: 6.125%;
+
+}
+p.graphic3 {
+    top: 16.88%;
+    left: 52%;
+}
+p.graphic4 {
+    color: inherit;
+    top: 17%;
+    left: 38.5%;
+}
+.name {
+    position: absolute;
+    font-family: "Londrina Sketch", sans-serif;
+    font-size: 7.5rem;
+    font-weight: bold;
+    color: rgb(125, 44, 44);
+    top: 5vh;
+    left: 5vw;
+}
+body {
+    background: fixed no-repeat url(/imgs/beach.jpg);
+    background-size: cover;
+    font-family: "Raleway", sans-serif;
+    margin: 0px;
+    color: white;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    min-height: 100%;
+    min-width: 100%;
+
+}
+.nav-link {
+    transition: all 0.35s;
+    border-radius: 3px;
+}
+.nav-link:hover {
+    background-color: #fff;
+    color: maroon;
+
+}
+img {
+    width: 100%;
+}
